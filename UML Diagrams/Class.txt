@@ -1,0 +1,30 @@
+The given class diagram represents a food ordering and delivery system with various entities and their interactions:
+
+User Class:
+
+Represents customers with attributes like userid, name, email, password, address, and phoneNumber.
+Functions: register(), login(), placeOrder(), trackOrder(), leaveReview().
+Manager Class:
+
+Manages restaurant operations with attributes (restaurantid, name, location, rating).
+Functions: manageMenu(), acceptOrder().
+Menu Class:
+
+Represents food items in a restaurant (itemid, restaurantid, itemname, price, availability).
+Functions: addItem(), removeItem(), updateItem().
+Cart Class:
+
+Stores users’ selected items (userid, itemid, quantity, offer, totalAmt, ordid).
+Contains items listed in the Menu.
+DeliveryOrder Class:
+
+Represents finalized orders (cartid, orderid, assignedDeliveryPersonid, rating, orderAmt, paymentid).
+DeliveryPerson Class:
+
+Represents delivery personnel (deliverypersonid, name, currentLocation, assignedOrders).
+Functions: viewAssignedDeliveries(), updateDeliveryStatus().
+Relationships:
+User places orders stored in Cart, creating a DeliveryOrder.
+Manager manages the Menu and assigns orders to DeliveryPerson.
+DeliveryPerson delivers assigned DeliveryOrder.
+Cart contains items listed in Menu.
