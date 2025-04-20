@@ -147,6 +147,12 @@ public class DeliveryPerson {
 		return deliveryorders;
 		// end-user-code
 	}
+	// Version 2 update - added method to show delivery info
+	public void showDeliveryInfo() {
+	System.out.println("Delivery Person ID: " + deliverypersonid);
+	System.out.println("Name: " + name);
+	System.out.println("Current Location: " + currentlocation);
+	}
 
 	/** 
 	 * @param theDeliveryorders the deliveryorders to set
