@@ -168,19 +168,15 @@ public class DeliveryPerson {
 	 * @generated "UML to Java V5.0 (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void UpdateDeliveryStatus() {
-		// begin-user-code
-		// TODO Auto-generated method stub
-
-		// end-user-code
+	System.out.println("Delivery status updated for Order ID: " + deliveryorders);
 	}
+
 
 	/** 
 	 * @generated "UML to Java V5.0 (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void viewAssignedDeliveries() {
-		// begin-user-code
-		// TODO Auto-generated method stub
-
-		// end-user-code
+	System.out.println("Currently assigned orders: " + assignedOrders);
 	}
+
 }
