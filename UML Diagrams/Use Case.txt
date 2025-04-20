@@ -1,0 +1,36 @@
+Use Case Descriptions for Food Delivery Application 
+
+1. Manage Users  
+The system allows management of user accounts, including customers, restaurant managers, delivery personnel, and chefs. This involves adding, updating, or removing users and assigning appropriate roles.  
+
+2. Registration for Different Users
+New users must register on the platform by providing necessary details such as name, contact information, and authentication credentials. This ensures role-based access control and a seamless onboarding process.  
+
+3. Login
+Registered users can log in to access their respective dashboards, where they can perform actions relevant to their roles.  
+
+4. Manage Menu  
+Restaurant menus can be added, updated, or removed with descriptions, pricing, and availability settings. This keeps the platform updated with the latest offerings.  
+
+5. Place Order 
+Users can browse menus, select items, and place orders, specifying quantity and any special instructions. Orders include delivery details for efficient processing.  
+
+6. Payment Processing 
+After placing an order, secure payment processing is enabled through integrated third-party payment services, ensuring seamless transactions.  
+
+7. Track Order & Leave Review
+Users can track orders in real-time and provide feedback based on their experience once the order is completed.  
+
+8. View Assigned Orders  
+Delivery personnel can access assigned orders, including pickup locations and customer details, to ensure efficient handling of deliveries.  
+
+9. Proceed to Kitchen 
+Once an order is confirmed, it is sent to the kitchen, where the restaurant staff prepares the food for delivery.  
+
+10. View Assigned Delivery  
+Delivery personnel receive notifications regarding assigned deliveries and can access order details to streamline the delivery process.  
+
+11. Update Delivery Status  
+Once the order is delivered, the status is updated in the system, notifying both the customer and the restaurant.  
+
+These use cases ensure smooth functionality across all aspects of the food delivery system, optimizing operations and enhancing user experience.
